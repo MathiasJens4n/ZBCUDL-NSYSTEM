@@ -1,0 +1,21 @@
+﻿<Application x:Class="LoanSystemWPFMini.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:LoanSystemWPFMini"
+             xmlns:vmp="clr-namespace:LoanSystemWPFMini.ViewModels.PopupViewModels"
+             xmlns:vwp="clr-namespace:LoanSystemWPFMini.Views.PopupViews"
+             StartupUri="Views\LoanSystemView.xaml">
+    <Application.Resources>
+
+
+        <ResourceDictionary>
+
+            <DataTemplate DataType="{x:Type vmp:ErrorViewModel}">
+                <vwp:ErrorView/>
+            </DataTemplate>
+            
+            <BooleanToVisibilityConverter x:Key="BoolToVisibilityConverter" />
+
+        </ResourceDictionary>
+    </Application.Resources>
+</Application>

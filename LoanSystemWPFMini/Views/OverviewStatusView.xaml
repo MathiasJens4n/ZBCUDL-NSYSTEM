@@ -1,0 +1,200 @@
+﻿<UserControl x:Class="LoanSystemWPFMini.Views.OverviewStatusView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:viewModel="clr-namespace:LoanSystemWPFMini.ViewModels"
+             mc:Ignorable="d" Background="White"
+             d:DesignHeight="712.5" d:DesignWidth="950">
+
+    <UserControl.DataContext>
+        <viewModel:OverviewStatusViewModel/>
+    </UserControl.DataContext>
+
+    <UserControl.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="/Resources/Styles/Styles.xaml"/>
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
+    </UserControl.Resources>
+
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <!-- Login button -->
+        <Button Grid.Column="43" Grid.ColumnSpan="6" Grid.Row="1" Grid.RowSpan="2"
+                Style="{StaticResource StandardButton}" Content="Log ud" Command="{Binding LogOutButton}"/>
+
+        <!-- Refrash Button -->
+        <Button Grid.Column="36" Grid.ColumnSpan="6" Grid.Row="1" Grid.RowSpan="2"
+                Style="{StaticResource StandardButton}" Content="Refrash Data" Command="{Binding RefreshDataButton}"/>
+
+        <!-- Print Data Button -->
+        <Button Grid.Column="29" Grid.ColumnSpan="6" Grid.Row="1" Grid.RowSpan="2"
+                Style="{StaticResource StandardButton}" Content="Print" Command="{Binding PrintButton}"/>
+
+        <!-- Active Loans -->
+            <Image Grid.Column="1" Grid.ColumnSpan="12" Grid.Row="1" Grid.RowSpan="3"
+               Source="/Resources/Images/Menu card 1.png" Style="{StaticResource StandardImage}"/>
+            <TextBlock Grid.Column="1" Grid.ColumnSpan="10" Grid.Row="2" Grid.RowSpan="2"
+                   Text=" Aktive lån" Style="{StaticResource StandardTextBlock}" VerticalAlignment="Center"/>
+            <DataGrid Grid.Column="1" Grid.ColumnSpan="48" Grid.Row="4" Grid.RowSpan="13"
+                  Style="{StaticResource StandardDataGrid}"
+                  ItemsSource="{Binding ShownActiveLoans}">
+
+                <DataGrid.Columns>
+                    <DataGridTextColumn Header="Udstyr" Binding="{Binding Equipment.Identification}"/>
+                    <DataGridTextColumn Header="Låner" Binding="{Binding User.Name}"/>
+                    <DataGridTextColumn Header="Telefonnummer" Binding="{Binding User.MobileNumber}"/>
+                    <DataGridTextColumn Header="Udlånsdato" Binding="{Binding CollectedTime, StringFormat=dd-MM-yyyy-HH:mm}"/>
+                    <DataGridTextColumn Header="Afleveringsfrist" Binding="{Binding ReturnDeadline, StringFormat=dd-MM-yyyy-HH:mm}"/>
+                    <DataGridTextColumn Header="Note" Binding="{Binding Note}"/>
+                </DataGrid.Columns>
+
+            </DataGrid>
+
+            <!-- Loans that should be returned today -->
+            <Image Grid.Column="1" Grid.ColumnSpan="12" Grid.Row="17" Grid.RowSpan="3"
+               Source="/Resources/Images/Menu card 1.png" Style="{StaticResource StandardImage}"/>
+            <TextBlock Grid.Column="1" Grid.ColumnSpan="10" Grid.Row="18" Grid.RowSpan="2"
+                   Text=" Lån der skal afleveret i dag" Style="{StaticResource StandardTextBlock}" VerticalAlignment="Center"/>
+            <DataGrid Grid.Column="1" Grid.ColumnSpan="48" Grid.Row="20" Grid.RowSpan="13"
+                  Style="{StaticResource StandardDataGrid}"
+                  ItemsSource="{Binding ShownShouldReturnTodayLoans}">
+
+                <DataGrid.Columns>
+                    <DataGridTextColumn Header="Udstyr" Binding="{Binding Equipment.Identification}"/>
+                    <DataGridTextColumn Header="Låner" Binding="{Binding User.Name}"/>
+                    <DataGridTextColumn Header="Telefonnummer" Binding="{Binding User.MobileNumber}"/>
+                    <DataGridTextColumn Header="Udlånsdato" Binding="{Binding CollectedTime, StringFormat=dd-MM-yyyy-HH:mm}"/>
+                    <DataGridTextColumn Header="Afleveringsfrist" Binding="{Binding ReturnDeadline, StringFormat=dd-MM-yyyy-HH:mm}"/>
+                    <DataGridTextColumn Header="Note" Binding="{Binding Note}"/>
+                </DataGrid.Columns>
+
+            </DataGrid>
+
+            <!-- Overdue Loans -->
+            <Image Grid.Column="1" Grid.ColumnSpan="12" Grid.Row="33" Grid.RowSpan="3"
+               Source="/Resources/Images/Menu card 1.png" Style="{StaticResource StandardImage}"/>
+            <TextBlock Grid.Column="1" Grid.ColumnSpan="10" Grid.Row="34" Grid.RowSpan="2"
+                   Text=" Overskredet lån" Style="{StaticResource StandardTextBlock}" VerticalAlignment="Center"/>
+            <DataGrid Grid.Column="1" Grid.ColumnSpan="48" Grid.Row="36" Grid.RowSpan="13"
+                  Style="{StaticResource StandardDataGrid}"
+                  ItemsSource="{Binding ShownOverdueLoans}">
+
+                <DataGrid.Columns>
+                    <DataGridTextColumn Header="Udstyr" Binding="{Binding Equipment.Identification}"/>
+                    <DataGridTextColumn Header="Låner" Binding="{Binding User.Name}"/>
+                    <DataGridTextColumn Header="Telefonnummer" Binding="{Binding User.MobileNumber}"/>
+                    <DataGridTextColumn Header="Udlånsdato" Binding="{Binding CollectedTime, StringFormat=dd-MM-yyyy-HH:mm}"/>
+                    <DataGridTextColumn Header="Afleveringsfrist" Binding="{Binding ReturnDeadline, StringFormat=dd-MM-yyyy-HH:mm}"/>
+                    <DataGridTextColumn Header="Note" Binding="{Binding Note}"/>
+                </DataGrid.Columns>
+
+            </DataGrid>
+    </Grid>
+</UserControl>

@@ -1,0 +1,86 @@
+﻿<UserControl x:Class="LoanSystemWPFMini.Views.SelectDepartmentView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:viewModel="clr-namespace:LoanSystemWPFMini.ViewModels"
+             mc:Ignorable="d" Background="White"
+             d:DesignHeight="712.5" d:DesignWidth="950">
+
+    <UserControl.DataContext>
+        <viewModel:SelectDepartmentViewModel/>
+    </UserControl.DataContext>
+
+    <UserControl.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="/Resources/Styles/Styles.xaml"/>
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
+    </UserControl.Resources>
+    
+    <Grid>
+
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="5*"/>
+            <ColumnDefinition Width="10*"/>
+            <ColumnDefinition Width="10*"/>
+            <ColumnDefinition Width="10*"/>
+            <ColumnDefinition Width="10*"/>
+            <ColumnDefinition Width="10*"/>
+            <ColumnDefinition Width="10*"/>
+            <ColumnDefinition Width="10*"/>
+            <ColumnDefinition Width="10*"/>
+            <ColumnDefinition Width="10*"/>
+            <ColumnDefinition Width="10*"/>
+            <ColumnDefinition Width="10*"/>
+            <ColumnDefinition Width="10*"/>
+            <ColumnDefinition Width="10*"/>
+            <ColumnDefinition Width="5*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="5*"/>
+            <RowDefinition Height="10*"/>
+            <RowDefinition Height="10*"/>
+            <RowDefinition Height="10*"/>
+            <RowDefinition Height="10*"/>
+            <RowDefinition Height="10*"/>
+            <RowDefinition Height="10*"/>
+            <RowDefinition Height="10*"/>
+            <RowDefinition Height="10*"/>
+            <RowDefinition Height="10*"/>
+            <RowDefinition Height="5*"/>
+        </Grid.RowDefinitions>
+
+        <!-- Title lable -->
+        <Label Grid.Column="1" Grid.ColumnSpan="13" Grid.Row="1" Grid.RowSpan="2"
+               Content="Vælg den afdeling som programmet skal køre i."
+               Style="{StaticResource TitleLabel}"/>
+
+        <!-- All buttons -->
+        <Button Grid.Column="2" Grid.ColumnSpan="3" Grid.Row="3" Grid.RowSpan="3"
+                Content="Vordingborg" FontSize="{Binding TitleSize}"
+                Command="{Binding SelectButton}" 
+                CommandParameter="Vordingborg"/>
+
+        <Button Grid.Column="6" Grid.ColumnSpan="3" Grid.Row="3" Grid.RowSpan="3"
+                Content="Næstved" FontSize="{Binding TitleSize}"
+                Command="{Binding SelectButton}" 
+                CommandParameter="Næstved"/>
+
+        <Button Grid.Column="10" Grid.ColumnSpan="3" Grid.Row="3" Grid.RowSpan="3"
+                Content="Ringsted" FontSize="{Binding TitleSize}"
+                Command="{Binding SelectButton}" 
+                CommandParameter="Ringsted"/>
+
+        <Button Grid.Column="4" Grid.ColumnSpan="3" Grid.Row="7" Grid.RowSpan="3"
+                Content="Slagelse" FontSize="{Binding TitleSize}"
+                Command="{Binding SelectButton}" 
+                CommandParameter="Slagelse"/>
+
+        <Button Grid.Column="8" Grid.ColumnSpan="3" Grid.Row="7" Grid.RowSpan="3"
+                Content="Roskilde" FontSize="{Binding TitleSize}"
+                Command="{Binding SelectButton}" 
+                CommandParameter="Roskilde"/>
+    </Grid>
+</UserControl>

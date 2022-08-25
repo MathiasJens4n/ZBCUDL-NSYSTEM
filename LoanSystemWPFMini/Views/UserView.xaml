@@ -1,0 +1,354 @@
+﻿<UserControl x:Class="LoanSystemWPFMini.Views.UserView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:viewModel="clr-namespace:LoanSystemWPFMini.ViewModels"
+             xmlns:Models="clr-namespace:LoanSystemWPFMini.Model"
+             mc:Ignorable="d" Background="White"
+             d:DesignHeight="712.5" d:DesignWidth="950">
+
+    <UserControl.DataContext>
+        <viewModel:UserViewModel/>
+    </UserControl.DataContext>
+
+    <UserControl.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="/Resources/Styles/Styles.xaml"/>
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
+    </UserControl.Resources>
+
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="70*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="30*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="20*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="80*"/>
+        </Grid.RowDefinitions>
+
+        <Grid Grid.Column="0" Grid.Row="0">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+
+            <TextBlock Grid.ColumnSpan="40" Grid.RowSpan="30" Background="Black" Opacity="0.12"/>
+
+            <Label Grid.Column="0" Grid.Row="0" Grid.ColumnSpan="3" Grid.RowSpan="6" Content="Søg på" 
+                   Style="{StaticResource StandardLabel}"/>
+            <ComboBox Grid.Column="3" Grid.Row="0" Grid.ColumnSpan="10" Grid.RowSpan="6"
+                      Style="{StaticResource StandardComboBox}" ItemsSource="{Binding SearchOptions}" 
+                      SelectedItem="{Binding SelectedSearchOption}"/>
+            <TextBox Grid.Column="14" Grid.Row="0" Grid.ColumnSpan="15" Grid.RowSpan="6"
+                     Style="{StaticResource SearchText}" Text="{Binding SearchInput}"/>
+            <Button Grid.Column="30" Grid.Row="0" Grid.ColumnSpan="3" Grid.RowSpan="6" Content="Søg"
+                    Style="{StaticResource StandardButton}" Command="{Binding SearchButton}"/>
+            <Button Grid.Column="34" Grid.Row="0" Grid.ColumnSpan="5" Grid.RowSpan="6" Content="Ryd søgning"
+                    Style="{StaticResource StandardButton}" Command="{Binding ClearSearchButton}"/>
+
+            <WrapPanel Grid.Column="0" Grid.Row="8" Grid.ColumnSpan="40" Grid.RowSpan="12">
+                <CheckBox Content="Uni Login" Margin="{Binding Margin}"
+                      Style="{StaticResource StandardCheckBox}" IsChecked="{Binding UniLoginChecked}"/>
+                <CheckBox Content="Navn" Margin="{Binding Margin}"
+                      Style="{StaticResource StandardCheckBox}" IsChecked="{Binding NameChecked}"/>
+                <CheckBox Content="Mobil nr." Margin="{Binding Margin}"
+                      Style="{StaticResource StandardCheckBox}" IsChecked="{Binding MobileNumberChecked}"/>
+                <CheckBox Content="ELåne regel" Margin="{Binding Margin}"
+                      Style="{StaticResource StandardCheckBox}" IsChecked="{Binding LoanRuleChecked}"/>
+                <CheckBox Content="Status" Margin="{Binding Margin}"
+                      Style="{StaticResource StandardCheckBox}" IsChecked="{Binding StatusChecked}"/>
+                <CheckBox Content="Note" Margin="{Binding Margin}"
+                      Style="{StaticResource StandardCheckBox}" IsChecked="{Binding UserNoteChecked}"/>
+            </WrapPanel>
+
+            <!--<Label Grid.Column="0" Grid.Row="18" Grid.ColumnSpan="4" Grid.RowSpan="6" Content="Fra dato"
+                   Style="{StaticResource StandardLabel}" HorizontalAlignment="Left"/>
+            <DatePicker Grid.Column="0" Grid.Row="24" Grid.ColumnSpan="15" Grid.RowSpan="8"
+                        Style="{StaticResource StandardDatePicker}" SelectedDate="{Binding SelectedFromDate, StringFormat='dd-MM-yyyy' }"/>
+            <Label Grid.Column="16" Grid.Row="18" Grid.ColumnSpan="4" Grid.RowSpan="6" Content="Til dato"
+                   Style="{StaticResource StandardLabel}" HorizontalAlignment="Left"/>
+            <DatePicker Grid.Column="16" Grid.Row="24" Grid.ColumnSpan="15" Grid.RowSpan="8"
+                        Style="{StaticResource StandardDatePicker}" SelectedDate="{Binding SelectedToDate}"/>-->
+            <Button Grid.Column="32" Grid.Row="17" Grid.ColumnSpan="7" Grid.RowSpan="8" Content="Print"
+                    Style="{StaticResource StandardButton}" Command="{Binding PrintButton}"/>
+            <ComboBox Grid.Column="32" Grid.Row="24" Grid.ColumnSpan="7" Grid.RowSpan="8"
+                      Style="{StaticResource StandardComboBox}" ItemsSource="{Binding OrderDirections}" SelectedItem="{Binding SelectedOrderDirection}"/>
+        </Grid>
+
+        <DataGrid Grid.Column="0" Grid.Row="2"
+                  ItemsSource="{Binding ShownUsers}"
+                  SelectedItem="{Binding SelectedUser}"
+                  Style="{StaticResource StandardDataGrid}">
+
+            <DataGrid.Resources>
+                <Models:BindingProxy x:Key="UniLoginCheckedProxy" Data="{Binding UniLoginChecked}"/>
+                <Models:BindingProxy x:Key="NameCheckedProxy" Data="{Binding NameChecked}"/>
+                <Models:BindingProxy x:Key="MobileNumberCheckedProxy" Data="{Binding MobileNumberChecked}"/>
+                <Models:BindingProxy x:Key="LoanRuleCheckedProxy" Data="{Binding LoanRuleChecked}"/>
+                <Models:BindingProxy x:Key="StatusCheckedProxy" Data="{Binding StatusChecked}"/>
+                <Models:BindingProxy x:Key="UserNoteCheckedProxy" Data="{Binding UserNoteChecked}"/>
+            </DataGrid.Resources>
+
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="UniLogin" Binding="{Binding UniLogin}" Width="{Binding Margin}"
+                                    Visibility="{Binding Data, Converter={StaticResource BoolToVisibilityConverter}, Source={StaticResource UniLoginCheckedProxy}}"/>
+                <DataGridTextColumn Header="Navn" Binding="{Binding Name}" Width="{Binding Margin}"
+                                    Visibility="{Binding Data, Converter={StaticResource BoolToVisibilityConverter}, Source={StaticResource NameCheckedProxy}}"/>
+                <DataGridTextColumn Header="Mobil nummer" Binding="{Binding MobileNumber}" Width="{Binding Margin}"
+                                    Visibility="{Binding Data, Converter={StaticResource BoolToVisibilityConverter}, Source={StaticResource MobileNumberCheckedProxy}}"/>
+                <DataGridTextColumn Header="Låneregel" Binding="{Binding LoanRule.Name}" Width="{Binding Margin}"
+                                    Visibility="{Binding Data, Converter={StaticResource BoolToVisibilityConverter}, Source={StaticResource LoanRuleCheckedProxy}}"/>
+                <DataGridTextColumn Header="Status" Binding="{Binding Status.Name}" Width="{Binding Margin}"
+                                    Visibility="{Binding Data, Converter={StaticResource BoolToVisibilityConverter}, Source={StaticResource StatusCheckedProxy}}"/>
+                <DataGridTextColumn Header="Note" Binding="{Binding Note}" Width="{Binding Margin}"
+                                    Visibility="{Binding Data, Converter={StaticResource BoolToVisibilityConverter}, Source={StaticResource UserNoteCheckedProxy}}"/>
+            </DataGrid.Columns>
+        </DataGrid>
+
+        <Grid Grid.Column="2" Grid.RowSpan="3">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+
+            <TextBlock Grid.RowSpan="120" Grid.ColumnSpan="27" Background="Black" Opacity="0.12"/>
+
+            <Image  Grid.ColumnSpan="5" Grid.RowSpan="5" Source="/Resources/Images/Corner visual.png"
+                    Style="{StaticResource StandardImage}" VerticalAlignment="Top"/>
+
+            <Button Grid.Column="12" Grid.ColumnSpan="7" Grid.RowSpan="2" Content="Ryd info"
+                    Style="{StaticResource StandardButton}" Command="{Binding ClearInfoButton}"/>
+            <Button Grid.Column="20" Grid.ColumnSpan="7" Grid.RowSpan="2" Content="Log ud"
+                    Style="{StaticResource StandardButton}" Command="{Binding LogOutButton}"/>
+
+            <!-- UniLogin -->
+            <Image Grid.ColumnSpan="10" Grid.Row="5" Grid.RowSpan="2" 
+                   Source="/Resources/Images/Menu card 1.png" Style="{StaticResource StandardImage}"/>
+            <TextBlock Grid.ColumnSpan="10" Grid.Row="5" Grid.RowSpan="2" Text=" ZBC-login"
+                       Style="{StaticResource StandardTextBlock}"/>
+            <TextBox Grid.ColumnSpan="27" Grid.Row="7" Grid.RowSpan="2" Text="{Binding SelectedUniLogin}"
+                     Style="{StaticResource StandardText}"/>
+
+            <!-- Name -->
+            <Image Grid.ColumnSpan="10" Grid.Row="10" Grid.RowSpan="2" 
+                   Source="/Resources/Images/Menu card 1.png" Style="{StaticResource StandardImage}"/>
+            <TextBlock Grid.ColumnSpan="10" Grid.Row="10" Grid.RowSpan="2" Text=" Navn"
+                       Style="{StaticResource StandardTextBlock}"/>
+            <TextBox Grid.ColumnSpan="27" Grid.Row="12" Grid.RowSpan="2" Text="{Binding SelectedName}"
+                     Style="{StaticResource StandardText}"/>
+
+            <!-- MobileNumber -->
+            <Image Grid.ColumnSpan="10" Grid.Row="15" Grid.RowSpan="2" 
+                   Source="/Resources/Images/Menu card 1.png" Style="{StaticResource StandardImage}"/>
+            <TextBlock Grid.ColumnSpan="10" Grid.Row="15" Grid.RowSpan="2" Text=" Mobil Nr."
+                       Style="{StaticResource StandardTextBlock}"/>
+            <TextBox Grid.ColumnSpan="27" Grid.Row="17" Grid.RowSpan="2" Text="{Binding SelectedMobileNumber}"
+                     Style="{StaticResource StandardText}"/>
+
+            <!-- LoanRule -->
+            <Image Grid.ColumnSpan="10" Grid.Row="20" Grid.RowSpan="2" 
+                   Source="/Resources/Images/Menu card 1.png" Style="{StaticResource StandardImage}"/>
+            <TextBlock Grid.ColumnSpan="10" Grid.Row="20" Grid.RowSpan="2" Text=" Låneregel"
+                       Style="{StaticResource StandardTextBlock}"/>
+            <ComboBox Grid.ColumnSpan="27" Grid.Row="22" Grid.RowSpan="2" ItemsSource="{Binding LoanRules}" SelectedItem="{Binding SelectedLoanRule}"
+                      Style="{StaticResource StandardComboBox}">
+                <ComboBox.ItemTemplate>
+                    <DataTemplate>
+                        <TextBlock Text="{Binding Name}"/>
+                    </DataTemplate>
+                </ComboBox.ItemTemplate>
+            </ComboBox>
+
+            <!-- Status -->
+            <Image Grid.ColumnSpan="10" Grid.Row="25" Grid.RowSpan="2" 
+                   Source="/Resources/Images/Menu card 1.png" Style="{StaticResource StandardImage}"/>
+            <TextBlock Grid.ColumnSpan="10" Grid.Row="25" Grid.RowSpan="2" Text=" Status"
+                       Style="{StaticResource StandardTextBlock}"/>
+            <ComboBox Grid.ColumnSpan="27" Grid.Row="27" Grid.RowSpan="2" ItemsSource="{Binding Statuses}" SelectedItem="{Binding SelectedStatus}"
+                      Style="{StaticResource StandardComboBox}">
+                <ComboBox.ItemTemplate>
+                    <DataTemplate>
+                        <TextBlock Text="{Binding Name}"/>
+                    </DataTemplate>
+                </ComboBox.ItemTemplate>
+            </ComboBox>
+
+            <!-- UserNote -->
+            <Image Grid.ColumnSpan="10" Grid.Row="30" Grid.RowSpan="2" 
+                   Source="/Resources/Images/Menu card 1.png" Style="{StaticResource StandardImage}"/>
+            <TextBlock Grid.ColumnSpan="10" Grid.Row="30" Grid.RowSpan="2" Text=" Note"
+                       Style="{StaticResource StandardTextBlock}"/>
+            <TextBox Grid.ColumnSpan="27" Grid.Row="32" Grid.RowSpan="7" Text="{Binding SelectedUserNote}"
+                     Style="{StaticResource NoteText}"/>
+
+            <!-- Create, Save or Delete -->
+            <TextBlock Grid.Row="51" Grid.ColumnSpan="27" Grid.RowSpan="6" Background="DarkGray"/>
+            <CheckBox Grid.Column="10" Grid.Row="52" Grid.ColumnSpan="7" Grid.RowSpan="2" Content="Gem/Slet"
+                      Style="{StaticResource StandardCheckBox}" IsChecked="{Binding CanSaveOrDeleteChecked}"/>
+            <Button Grid.Column="1" Grid.Row="54" Grid.ColumnSpan="12" Grid.RowSpan="2" Content="{Binding CreateOrUpdateUserButtonContent}"
+                    Style="{StaticResource StandardButton}" IsEnabled="{Binding CanSaveOrDeleteChecked}" Command="{Binding CreateOrUpdateUserButton}"/>
+            <Button Grid.Column="14" Grid.Row="54" Grid.ColumnSpan="12" Grid.RowSpan="2" Content="Slet"
+                    Style="{StaticResource StandardButton}" IsEnabled="{Binding CanSaveOrDeleteChecked}" Command="{Binding DeleteUserButton}"/>
+        </Grid>
+    </Grid>
+</UserControl>

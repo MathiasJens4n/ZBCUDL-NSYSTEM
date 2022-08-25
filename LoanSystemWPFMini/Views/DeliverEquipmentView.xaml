@@ -1,0 +1,157 @@
+﻿<UserControl x:Class="LoanSystemWPFMini.Views.DeliverEquipmentView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:viewModel="clr-namespace:LoanSystemWPFMini.ViewModels"
+             mc:Ignorable="d" Background="White"
+             d:DesignHeight="712.5" d:DesignWidth="950">
+
+    <UserControl.DataContext>
+        <viewModel:DeliverEquipmentViewModel/>
+    </UserControl.DataContext>
+
+    <UserControl.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="/Resources/Styles/Styles.xaml"/>
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
+    </UserControl.Resources>
+
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <!-- Back button -->
+        <Button Grid.Column="1" Grid.ColumnSpan="6" Grid.Row="1" Grid.RowSpan="2" 
+                Style="{StaticResource StandardButton}" Content="    Tilbage   " Command="{Binding BackButton}"/>
+
+        <!-- Instructions -->
+        <TextBlock Grid.Column="20" Grid.ColumnSpan="15" Grid.Row="10" Grid.RowSpan="3" 
+                   Text="Scan udstyr for at afleverer." FontSize="{Binding TitleSize}"/>
+
+        <!-- Just delivered -->
+        <TextBlock Grid.Column="10" Grid.ColumnSpan="30" Grid.Row="15" Grid.RowSpan="10"
+                   Background="LightGreen" Visibility="{Binding JustDeliveredVisibility}"/>
+        <TextBlock Grid.Column="13" Grid.ColumnSpan="24" Grid.Row="15" Grid.RowSpan="10"
+                   FontSize="{Binding TitleSize}" Text="{Binding JustDelivered}"
+                   TextWrapping="Wrap" TextAlignment="Center" VerticalAlignment="Center"/>
+
+        <!-- Active loans before returned dato -->
+        <TextBlock Grid.Column="10" Grid.ColumnSpan="30" Grid.Row="26" Grid.RowSpan="10"
+                   Background="Yellow" Visibility="{Binding ActiveLoansVisibility}"/>
+        <TextBlock Grid.Column="13" Grid.ColumnSpan="24" Grid.Row="26" Grid.RowSpan="10"
+                   FontSize="{Binding TitleSize}" Text="{Binding ActiveLoans}"
+                   TextWrapping="Wrap" TextAlignment="Center" VerticalAlignment="Center"/>
+        
+        <!-- Active loans overdue -->
+        <TextBlock Grid.Column="10" Grid.ColumnSpan="30" Grid.Row="37" Grid.RowSpan="10"
+                   Background="Red" Visibility="{Binding OverdueLoansVisibility}"/>
+        <TextBlock Grid.Column="13" Grid.ColumnSpan="24" Grid.Row="37" Grid.RowSpan="10"
+                   FontSize="{Binding TitleSize}" Text="{Binding OverdueLoans}"
+                   TextWrapping="Wrap" TextAlignment="Center" VerticalAlignment="Center"/>
+    </Grid>
+</UserControl>

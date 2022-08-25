@@ -1,0 +1,62 @@
+﻿<Window x:Class="LoanSystemWPFMini.Views.LoanSystemView"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:viewModel="clr-namespace:LoanSystemWPFMini.ViewModels"
+        mc:Ignorable="d" WindowStartupLocation="CenterScreen"
+        Title="Udlåns System" Height="{Binding Height, Mode=TwoWay}" Width="{Binding Width, Mode=TwoWay}"
+        MinHeight="750" MinWidth="1000" WindowState="{Binding WindowState}">
+
+    <Window.DataContext>
+        <viewModel:LoanSystemViewModel/>
+    </Window.DataContext>
+
+    <Window.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="/Resources/Styles/Styles.xaml"/>
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
+    </Window.Resources>
+
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="20*"/>
+            <ColumnDefinition Width="20*"/>
+            <ColumnDefinition Width="20*"/>
+            <ColumnDefinition Width="20*"/>
+            <ColumnDefinition Width="20*"/>
+            <ColumnDefinition Width="20*"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="5*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="95*"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <Button Grid.Column="1" Content="Oversigt" Command="{Binding OverviewPageButton}" CommandParameter="OverviewBackground"
+                Style="{StaticResource StandardButton}" Visibility="{Binding ButtonVisibility}" VerticalAlignment="Stretch" HorizontalAlignment="Stretch"
+                Background="{Binding OverviewBackground}"/>
+        <Button Grid.Column="2" Content="Lån" Command="{Binding LoanButton}" CommandParameter="LoanBackground" 
+                Style="{StaticResource StandardButton}" Visibility="{Binding ButtonVisibility}" VerticalAlignment="Stretch" HorizontalAlignment="Stretch"
+                Background="{Binding LoanBackground}"/>
+        <Button Grid.Column="3" Content="Udstyr" Command="{Binding EquipmentButton}" CommandParameter="EquipmentBackground" 
+                Style="{StaticResource StandardButton}" Visibility="{Binding ButtonVisibility}" VerticalAlignment="Stretch" HorizontalAlignment="Stretch"
+                Background="{Binding EquipmentBackground}"/>
+        <Button Grid.Column="4" Content='Bruger' Command="{Binding UserPageButton}" CommandParameter="UserBackground" 
+                Style="{StaticResource StandardButton}" Visibility="{Binding ButtonVisibility}" VerticalAlignment="Stretch" HorizontalAlignment="Stretch"
+                Background="{Binding UserBackground}"/>
+        <Button Grid.Column="5" Content="Låne regel" Command="{Binding LoanRulePageButton}" CommandParameter="LoanRuleBackground"
+                Style="{StaticResource StandardButton}" Visibility="{Binding ButtonVisibility}" VerticalAlignment="Stretch" HorizontalAlignment="Stretch"
+                Background="{Binding LoanRuleBackground}"/>
+        <Button Grid.Column="6" Content='Type / Model' Command="{Binding TypeModelButton}" CommandParameter="TypeModelBackground" 
+                Style="{StaticResource StandardButton}" Visibility="{Binding ButtonVisibility}" VerticalAlignment="Stretch" HorizontalAlignment="Stretch"
+                Background="{Binding TypeModelBackground}"/>
+
+        <ContentControl Grid.Column="1" Grid.ColumnSpan="6" Grid.Row="2" Content="{Binding UserControlView}"/>
+    </Grid>
+</Window>
