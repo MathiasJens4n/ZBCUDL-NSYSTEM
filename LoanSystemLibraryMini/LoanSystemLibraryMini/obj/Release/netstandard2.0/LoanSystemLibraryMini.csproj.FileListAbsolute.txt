@@ -1,0 +1,10 @@
+C:\Users\zbcmber\Desktop\Udlånssystem\LoanSystemLibraryMini\LoanSystemLibraryMini\bin\Release\netstandard2.0\LoanSystemLibraryMini.deps.json
+C:\Users\zbcmber\Desktop\Udlånssystem\LoanSystemLibraryMini\LoanSystemLibraryMini\bin\Release\netstandard2.0\LoanSystemLibraryMini.dll
+C:\Users\zbcmber\Desktop\Udlånssystem\LoanSystemLibraryMini\LoanSystemLibraryMini\bin\Release\netstandard2.0\LoanSystemLibraryMini.pdb
+C:\Users\zbcmber\Desktop\Udlånssystem\LoanSystemLibraryMini\LoanSystemLibraryMini\obj\Release\netstandard2.0\LoanSystemLibraryMini.csproj.AssemblyReference.cache
+C:\Users\zbcmber\Desktop\Udlånssystem\LoanSystemLibraryMini\LoanSystemLibraryMini\obj\Release\netstandard2.0\LoanSystemLibraryMini.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\zbcmber\Desktop\Udlånssystem\LoanSystemLibraryMini\LoanSystemLibraryMini\obj\Release\netstandard2.0\LoanSystemLibraryMini.AssemblyInfoInputs.cache
+C:\Users\zbcmber\Desktop\Udlånssystem\LoanSystemLibraryMini\LoanSystemLibraryMini\obj\Release\netstandard2.0\LoanSystemLibraryMini.AssemblyInfo.cs
+C:\Users\zbcmber\Desktop\Udlånssystem\LoanSystemLibraryMini\LoanSystemLibraryMini\obj\Release\netstandard2.0\LoanSystemLibraryMini.csproj.CoreCompileInputs.cache
+C:\Users\zbcmber\Desktop\Udlånssystem\LoanSystemLibraryMini\LoanSystemLibraryMini\obj\Release\netstandard2.0\LoanSystemLibraryMini.dll
+C:\Users\zbcmber\Desktop\Udlånssystem\LoanSystemLibraryMini\LoanSystemLibraryMini\obj\Release\netstandard2.0\LoanSystemLibraryMini.pdb

@@ -1,0 +1,61 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\zbcmatbj\\source\\repos\\ZBCUDLÅNSYSTEM\\LoanSystemWPFMini\\LoanSystemWPFMini.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\zbcmatbj\\source\\repos\\ZBCUDLÅNSYSTEM\\LoanSystemWPFMini\\LoanSystemWPFMini.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\zbcmatbj\\source\\repos\\ZBCUDLÅNSYSTEM\\LoanSystemWPFMini\\LoanSystemWPFMini.csproj",
+        "projectName": "LoanSystemWPFMini",
+        "projectPath": "C:\\Users\\zbcmatbj\\source\\repos\\ZBCUDLÅNSYSTEM\\LoanSystemWPFMini\\LoanSystemWPFMini.csproj",
+        "packagesPath": "C:\\Users\\zbcmatbj\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\zbcmatbj\\source\\repos\\ZBCUDLÅNSYSTEM\\LoanSystemWPFMini\\obj\\",
+        "projectStyle": "PackageReference",
+        "skipContentFileWrite": true,
+        "configFilePaths": [
+          "C:\\Users\\zbcmatbj\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net48"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net48": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "net48": {
+          "dependencies": {
+            "Microsoft.AspNet.WebApi.Client": {
+              "target": "Package",
+              "version": "[5.2.9, )"
+            },
+            "Microsoft.Windows.SDK.Contracts": {
+              "target": "Package",
+              "version": "[10.0.22621.2, )"
+            }
+          }
+        }
+      },
+      "runtimes": {
+        "win": {
+          "#import": []
+        },
+        "win-x64": {
+          "#import": []
+        },
+        "win-x86": {
+          "#import": []
+        }
+      }
+    }
+  }
+}

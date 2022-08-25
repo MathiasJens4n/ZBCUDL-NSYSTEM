@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "QejoDsvVRs3tWW2zNKHZQXK7M/diKNL4psyVurQHswlRTkH91xXjpjjFhsiGtFnEPmmlhhYvZ8i0oswLquOHbA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\zbcmatbj\\source\\repos\\ZBCUDLÅNSYSTEM\\LoanSystemLibraryMini\\LoanSystemLibraryMini\\LoanSystemLibraryMini.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\zbcmatbj\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\zbcmatbj\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

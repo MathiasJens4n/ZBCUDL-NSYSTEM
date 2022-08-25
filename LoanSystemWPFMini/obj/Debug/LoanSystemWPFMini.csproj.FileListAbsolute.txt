@@ -1,0 +1,231 @@
+G:\SKP\IT\Data\Dokumentation\Aktive projekter\Projekt - Udlånssystem\Projekt Udlån Mini\Kode\LoanSystemWPFMini\bin\Debug\LoanSystemWPFMini.exe.config
+G:\SKP\IT\Data\Dokumentation\Aktive projekter\Projekt - Udlånssystem\Projekt Udlån Mini\Kode\LoanSystemWPFMini\bin\Debug\LoanSystemWPFMini.exe
+G:\SKP\IT\Data\Dokumentation\Aktive projekter\Projekt - Udlånssystem\Projekt Udlån Mini\Kode\LoanSystemWPFMini\bin\Debug\LoanSystemWPFMini.pdb
+G:\SKP\IT\Data\Dokumentation\Aktive projekter\Projekt - Udlånssystem\Projekt Udlån Mini\Kode\LoanSystemWPFMini\bin\Debug\Newtonsoft.Json.dll
+G:\SKP\IT\Data\Dokumentation\Aktive projekter\Projekt - Udlånssystem\Projekt Udlån Mini\Kode\LoanSystemWPFMini\bin\Debug\System.Net.Http.Formatting.dll
+G:\SKP\IT\Data\Dokumentation\Aktive projekter\Projekt - Udlånssystem\Projekt Udlån Mini\Kode\LoanSystemWPFMini\bin\Debug\LoanSystemLibraryMini.pdb
+G:\SKP\IT\Data\Dokumentation\Aktive projekter\Projekt - Udlånssystem\Projekt Udlån Mini\Kode\LoanSystemWPFMini\obj\Debug\App.g.cs
+G:\SKP\IT\Data\Dokumentation\Aktive projekter\Projekt - Udlånssystem\Projekt Udlån Mini\Kode\LoanSystemWPFMini\obj\Debug\LoanSystemWPFMini_MarkupCompile.cache
+G:\SKP\IT\Data\Dokumentation\Aktive projekter\Projekt - Udlånssystem\Projekt Udlån Mini\Kode\LoanSystemWPFMini\obj\Debug\LoanSystemWPFMini_MarkupCompile.lref
+G:\SKP\IT\Data\Dokumentation\Aktive projekter\Projekt - Udlånssystem\Projekt Udlån Mini\Kode\LoanSystemWPFMini\obj\Debug\LoanSystemWPFMini.g.resources
+G:\SKP\IT\Data\Dokumentation\Aktive projekter\Projekt - Udlånssystem\Projekt Udlån Mini\Kode\LoanSystemWPFMini\obj\Debug\LoanSystemWPFMini.Properties.Resources.resources
+G:\SKP\IT\Data\Dokumentation\Aktive projekter\Projekt - Udlånssystem\Projekt Udlån Mini\Kode\LoanSystemWPFMini\obj\Debug\LoanSystemWPFMini.csproj.GenerateResource.cache
+G:\SKP\IT\Data\Dokumentation\Aktive projekter\Projekt - Udlånssystem\Projekt Udlån Mini\Kode\LoanSystemWPFMini\obj\Debug\LoanSystemWPFMini.csproj.CoreCompileInputs.cache
+G:\SKP\IT\Data\Dokumentation\Aktive projekter\Projekt - Udlånssystem\Projekt Udlån Mini\Kode\LoanSystemWPFMini\obj\Debug\LoanSystemWPFMini.csproj.CopyComplete
+G:\SKP\IT\Data\Dokumentation\Aktive projekter\Projekt - Udlånssystem\Projekt Udlån Mini\Kode\LoanSystemWPFMini\obj\Debug\LoanSystemWPFMini.exe
+G:\SKP\IT\Data\Dokumentation\Aktive projekter\Projekt - Udlånssystem\Projekt Udlån Mini\Kode\LoanSystemWPFMini\obj\Debug\LoanSystemWPFMini.pdb
+G:\SKP\IT\Data\Dokumentation\Aktive projekter\Projekt - Udlånssystem\Projekt Udlån Mini\Kode\LoanSystemWPFMini\obj\Debug\Views\LoanSystemView.g.cs
+G:\SKP\IT\Data\Dokumentation\Aktive projekter\Projekt - Udlånssystem\Projekt Udlån Mini\Kode\LoanSystemWPFMini\obj\Debug\GeneratedInternalTypeHelper.g.cs
+G:\SKP\IT\Data\Dokumentation\Aktive projekter\Projekt - Udlånssystem\Projekt Udlån Mini\Kode\LoanSystemWPFMini\obj\Debug\Views\LoanSystemView.baml
+G:\SKP\IT\Data\Dokumentation\Aktive projekter\Projekt - Udlånssystem\Projekt Udlån Mini\Kode\LoanSystemWPFMini\obj\Debug\Views\LoanRuleView.g.cs
+G:\SKP\IT\Data\Dokumentation\Aktive projekter\Projekt - Udlånssystem\Projekt Udlån Mini\Kode\LoanSystemWPFMini\obj\Debug\Views\LoanRuleView.baml
+G:\SKP\IT\Data\Dokumentation\Aktive projekter\Projekt - Udlånssystem\Projekt Udlån Mini\Kode\LoanSystemWPFMini\obj\Debug\Resources\Styles\Styles.baml
+G:\SKP\IT\Data\Dokumentation\Aktive projekter\Projekt - Udlånssystem\Projekt Udlån Mini\Kode\LoanSystemWPFMini\obj\Debug\App.baml
+G:\SKP\IT\Data\Dokumentation\Aktive projekter\Projekt - Udlånssystem\Projekt Udlån Mini\Kode\LoanSystemWPFMini\bin\Debug\LoanSystemLibraryMini.dll
+G:\SKP\IT\Data\Dokumentation\Aktive projekter\Projekt - Udlånssystem\Projekt Udlån Mini\Kode\LoanSystemWPFMini\obj\Debug\Views\PopupViews\ErrorView.g.cs
+G:\SKP\IT\Data\Dokumentation\Aktive projekter\Projekt - Udlånssystem\Projekt Udlån Mini\Kode\LoanSystemWPFMini\obj\Debug\Views\PopupViews\ErrorView.baml
+G:\SKP\IT\Data\Dokumentation\Aktive projekter\Projekt - Udlånssystem\Projekt Udlån Mini\Kode\LoanSystemWPFMini\obj\Debug\LoanSystemWPFMini.csproj.AssemblyReference.cache
+G:\SKP\IT\Data\Dokumentation\Aktive projekter\Projekt - Udlånssystem\Projekt Udlån Mini\Kode\LoanSystemWPFMini\obj\Debug\Views\UserView.g.cs
+G:\SKP\IT\Data\Dokumentation\Aktive projekter\Projekt - Udlånssystem\Projekt Udlån Mini\Kode\LoanSystemWPFMini\obj\Debug\Views\UserView.baml
+G:\SKP\IT\Data\Dokumentation\Aktive projekter\Projekt - Udlånssystem\Projekt Udlån Mini\Kode\LoanSystemWPFMini\obj\Debug\Views\TypeModelView.g.cs
+G:\SKP\IT\Data\Dokumentation\Aktive projekter\Projekt - Udlånssystem\Projekt Udlån Mini\Kode\LoanSystemWPFMini\obj\Debug\Views\TypeModelView.baml
+G:\SKP\IT\Data\Dokumentation\Aktive projekter\Projekt - Udlånssystem\Projekt Udlån Mini\Kode\LoanSystemWPFMini\obj\Debug\Views\EquipmentView.g.cs
+G:\SKP\IT\Data\Dokumentation\Aktive projekter\Projekt - Udlånssystem\Projekt Udlån Mini\Kode\LoanSystemWPFMini\obj\Debug\Views\EquipmentView.baml
+G:\SKP\IT\Data\Dokumentation\Aktive projekter\Projekt - Udlånssystem\Projekt Udlån Mini\Kode\LoanSystemWPFMini\obj\Debug\Views\LoanView.g.cs
+G:\SKP\IT\Data\Dokumentation\Aktive projekter\Projekt - Udlånssystem\Projekt Udlån Mini\Kode\LoanSystemWPFMini\obj\Debug\Views\LoanView.baml
+G:\SKP\IT\Data\Dokumentation\Aktive projekter\Projekt - Udlånssystem\Projekt Udlån Mini\Kode\LoanSystemWPFMini\obj\Debug\Views\LogInView.g.cs
+G:\SKP\IT\Data\Dokumentation\Aktive projekter\Projekt - Udlånssystem\Projekt Udlån Mini\Kode\LoanSystemWPFMini\obj\Debug\Views\LogInView.baml
+G:\SKP\IT\Data\Dokumentation\Aktive projekter\Projekt - Udlånssystem\Projekt Udlån Mini\Kode\LoanSystemWPFMini\obj\Debug\Views\UserLoanView.g.cs
+G:\SKP\IT\Data\Dokumentation\Aktive projekter\Projekt - Udlånssystem\Projekt Udlån Mini\Kode\LoanSystemWPFMini\obj\Debug\Views\UserLoanView.baml
+C:\Users\luka0654\Desktop\mini kode\13-12\LoanSystemWPFMini\bin\Debug\LoanSystemWPFMini.exe.config
+C:\Users\luka0654\Desktop\mini kode\13-12\LoanSystemWPFMini\bin\Debug\LoanSystemWPFMini.exe
+C:\Users\luka0654\Desktop\mini kode\13-12\LoanSystemWPFMini\bin\Debug\LoanSystemWPFMini.pdb
+C:\Users\luka0654\Desktop\mini kode\13-12\LoanSystemWPFMini\bin\Debug\WindowsInput.dll
+C:\Users\luka0654\Desktop\mini kode\13-12\LoanSystemWPFMini\bin\Debug\System.Net.Http.Formatting.dll
+C:\Users\luka0654\Desktop\mini kode\13-12\LoanSystemWPFMini\bin\Debug\Newtonsoft.Json.dll
+C:\Users\luka0654\Desktop\mini kode\13-12\LoanSystemWPFMini\bin\Debug\LoanSystemLibraryMini.pdb
+C:\Users\luka0654\Desktop\mini kode\13-12\LoanSystemWPFMini\obj\Debug\LoanSystemWPFMini.csproj.AssemblyReference.cache
+C:\Users\luka0654\Desktop\mini kode\13-12\LoanSystemWPFMini\obj\Debug\Resources\Styles\Styles.baml
+C:\Users\luka0654\Desktop\mini kode\13-12\LoanSystemWPFMini\obj\Debug\Views\PopupViews\ErrorView.baml
+C:\Users\luka0654\Desktop\mini kode\13-12\LoanSystemWPFMini\obj\Debug\Views\EquipmentView.g.cs
+C:\Users\luka0654\Desktop\mini kode\13-12\LoanSystemWPFMini\obj\Debug\Views\LoanRuleView.g.cs
+C:\Users\luka0654\Desktop\mini kode\13-12\LoanSystemWPFMini\obj\Debug\Views\LoanSystemView.g.cs
+C:\Users\luka0654\Desktop\mini kode\13-12\LoanSystemWPFMini\obj\Debug\Views\LoanView.g.cs
+C:\Users\luka0654\Desktop\mini kode\13-12\LoanSystemWPFMini\obj\Debug\Views\LogInView.g.cs
+C:\Users\luka0654\Desktop\mini kode\13-12\LoanSystemWPFMini\obj\Debug\Views\PopupViews\ErrorView.g.cs
+C:\Users\luka0654\Desktop\mini kode\13-12\LoanSystemWPFMini\obj\Debug\Views\TypeModelView.g.cs
+C:\Users\luka0654\Desktop\mini kode\13-12\LoanSystemWPFMini\obj\Debug\Views\UserLoanView.g.cs
+C:\Users\luka0654\Desktop\mini kode\13-12\LoanSystemWPFMini\obj\Debug\Views\UserView.g.cs
+C:\Users\luka0654\Desktop\mini kode\13-12\LoanSystemWPFMini\obj\Debug\App.g.cs
+C:\Users\luka0654\Desktop\mini kode\13-12\LoanSystemWPFMini\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\luka0654\Desktop\mini kode\13-12\LoanSystemWPFMini\obj\Debug\LoanSystemWPFMini_MarkupCompile.cache
+C:\Users\luka0654\Desktop\mini kode\13-12\LoanSystemWPFMini\obj\Debug\LoanSystemWPFMini_MarkupCompile.lref
+C:\Users\luka0654\Desktop\mini kode\13-12\LoanSystemWPFMini\obj\Debug\App.baml
+C:\Users\luka0654\Desktop\mini kode\13-12\LoanSystemWPFMini\obj\Debug\Views\EquipmentView.baml
+C:\Users\luka0654\Desktop\mini kode\13-12\LoanSystemWPFMini\obj\Debug\Views\LoanRuleView.baml
+C:\Users\luka0654\Desktop\mini kode\13-12\LoanSystemWPFMini\obj\Debug\Views\LoanSystemView.baml
+C:\Users\luka0654\Desktop\mini kode\13-12\LoanSystemWPFMini\obj\Debug\Views\LoanView.baml
+C:\Users\luka0654\Desktop\mini kode\13-12\LoanSystemWPFMini\obj\Debug\Views\LogInView.baml
+C:\Users\luka0654\Desktop\mini kode\13-12\LoanSystemWPFMini\obj\Debug\Views\TypeModelView.baml
+C:\Users\luka0654\Desktop\mini kode\13-12\LoanSystemWPFMini\obj\Debug\Views\UserLoanView.baml
+C:\Users\luka0654\Desktop\mini kode\13-12\LoanSystemWPFMini\obj\Debug\Views\UserView.baml
+C:\Users\luka0654\Desktop\mini kode\13-12\LoanSystemWPFMini\obj\Debug\LoanSystemWPFMini.g.resources
+C:\Users\luka0654\Desktop\mini kode\13-12\LoanSystemWPFMini\obj\Debug\LoanSystemWPFMini.Properties.Resources.resources
+C:\Users\luka0654\Desktop\mini kode\13-12\LoanSystemWPFMini\obj\Debug\LoanSystemWPFMini.csproj.GenerateResource.cache
+C:\Users\luka0654\Desktop\mini kode\13-12\LoanSystemWPFMini\obj\Debug\LoanSystemWPFMini.csproj.CoreCompileInputs.cache
+C:\Users\luka0654\Desktop\mini kode\13-12\LoanSystemWPFMini\obj\Debug\LoanSystemWPFMini.csproj.CopyComplete
+C:\Users\luka0654\Desktop\mini kode\13-12\LoanSystemWPFMini\obj\Debug\LoanSystemWPFMini.exe
+C:\Users\luka0654\Desktop\mini kode\13-12\LoanSystemWPFMini\obj\Debug\LoanSystemWPFMini.pdb
+G:\SKP\IT\Data\Dokumentation\Aktive projekter\Projekt - Udlånssystem\Projekt Udlån Mini\Kode\LoanSystemWPFMini\bin\Debug\WindowsInput.dll
+G:\SKP\IT\Data\Dokumentation\Aktive projekter\Projekt - Udlånssystem\Projekt Udlån Mini\Kode\LoanSystemWPFMini\obj\Debug\Views\MenuView.g.cs
+G:\SKP\IT\Data\Dokumentation\Aktive projekter\Projekt - Udlånssystem\Projekt Udlån Mini\Kode\LoanSystemWPFMini\obj\Debug\Views\MenuView.baml
+G:\SKP\IT\Data\Dokumentation\Aktive projekter\Projekt - Udlånssystem\Projekt Udlån Mini\Kode\LoanSystemWPFMini\obj\Debug\Views\DeliverEquipmentView.g.cs
+G:\SKP\IT\Data\Dokumentation\Aktive projekter\Projekt - Udlånssystem\Projekt Udlån Mini\Kode\LoanSystemWPFMini\obj\Debug\Views\DeliverEquipmentView.baml
+C:\Users\luka0654\Desktop\Projekt Udlån Mini\Kode\LoanSystemWPFMini\bin\Debug\LoanSystemWPFMini.exe.config
+C:\Users\luka0654\Desktop\Projekt Udlån Mini\Kode\LoanSystemWPFMini\bin\Debug\LoanSystemWPFMini.exe
+C:\Users\luka0654\Desktop\Projekt Udlån Mini\Kode\LoanSystemWPFMini\bin\Debug\LoanSystemWPFMini.pdb
+C:\Users\luka0654\Desktop\Projekt Udlån Mini\Kode\LoanSystemWPFMini\bin\Debug\WindowsInput.dll
+C:\Users\luka0654\Desktop\Projekt Udlån Mini\Kode\LoanSystemWPFMini\bin\Debug\System.Net.Http.Formatting.dll
+C:\Users\luka0654\Desktop\Projekt Udlån Mini\Kode\LoanSystemWPFMini\bin\Debug\Newtonsoft.Json.dll
+C:\Users\luka0654\Desktop\Projekt Udlån Mini\Kode\LoanSystemWPFMini\bin\Debug\LoanSystemLibraryMini.dll
+C:\Users\luka0654\Desktop\Projekt Udlån Mini\Kode\LoanSystemWPFMini\bin\Debug\LoanSystemLibraryMini.pdb
+C:\Users\luka0654\Desktop\Projekt Udlån Mini\Kode\LoanSystemWPFMini\obj\Debug\LoanSystemWPFMini.csproj.AssemblyReference.cache
+C:\Users\luka0654\Desktop\Projekt Udlån Mini\Kode\LoanSystemWPFMini\obj\Debug\Resources\Styles\Styles.baml
+C:\Users\luka0654\Desktop\Projekt Udlån Mini\Kode\LoanSystemWPFMini\obj\Debug\Views\PopupViews\ErrorView.baml
+C:\Users\luka0654\Desktop\Projekt Udlån Mini\Kode\LoanSystemWPFMini\obj\Debug\Views\DeliverEquipmentView.g.cs
+C:\Users\luka0654\Desktop\Projekt Udlån Mini\Kode\LoanSystemWPFMini\obj\Debug\Views\EquipmentView.g.cs
+C:\Users\luka0654\Desktop\Projekt Udlån Mini\Kode\LoanSystemWPFMini\obj\Debug\Views\LoanEquipmentView.g.cs
+C:\Users\luka0654\Desktop\Projekt Udlån Mini\Kode\LoanSystemWPFMini\obj\Debug\Views\LoanRuleView.g.cs
+C:\Users\luka0654\Desktop\Projekt Udlån Mini\Kode\LoanSystemWPFMini\obj\Debug\Views\LoanSystemView.g.cs
+C:\Users\luka0654\Desktop\Projekt Udlån Mini\Kode\LoanSystemWPFMini\obj\Debug\Views\LoanView.g.cs
+C:\Users\luka0654\Desktop\Projekt Udlån Mini\Kode\LoanSystemWPFMini\obj\Debug\Views\LogInView.g.cs
+C:\Users\luka0654\Desktop\Projekt Udlån Mini\Kode\LoanSystemWPFMini\obj\Debug\Views\MenuView.g.cs
+C:\Users\luka0654\Desktop\Projekt Udlån Mini\Kode\LoanSystemWPFMini\obj\Debug\Views\OverviewStatusView.g.cs
+C:\Users\luka0654\Desktop\Projekt Udlån Mini\Kode\LoanSystemWPFMini\obj\Debug\Views\PopupViews\ErrorView.g.cs
+C:\Users\luka0654\Desktop\Projekt Udlån Mini\Kode\LoanSystemWPFMini\obj\Debug\Views\TypeModelView.g.cs
+C:\Users\luka0654\Desktop\Projekt Udlån Mini\Kode\LoanSystemWPFMini\obj\Debug\Views\UserView.g.cs
+C:\Users\luka0654\Desktop\Projekt Udlån Mini\Kode\LoanSystemWPFMini\obj\Debug\App.g.cs
+C:\Users\luka0654\Desktop\Projekt Udlån Mini\Kode\LoanSystemWPFMini\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\luka0654\Desktop\Projekt Udlån Mini\Kode\LoanSystemWPFMini\obj\Debug\LoanSystemWPFMini_MarkupCompile.cache
+C:\Users\luka0654\Desktop\Projekt Udlån Mini\Kode\LoanSystemWPFMini\obj\Debug\LoanSystemWPFMini_MarkupCompile.lref
+C:\Users\luka0654\Desktop\Projekt Udlån Mini\Kode\LoanSystemWPFMini\obj\Debug\App.baml
+C:\Users\luka0654\Desktop\Projekt Udlån Mini\Kode\LoanSystemWPFMini\obj\Debug\Views\DeliverEquipmentView.baml
+C:\Users\luka0654\Desktop\Projekt Udlån Mini\Kode\LoanSystemWPFMini\obj\Debug\Views\EquipmentView.baml
+C:\Users\luka0654\Desktop\Projekt Udlån Mini\Kode\LoanSystemWPFMini\obj\Debug\Views\LoanRuleView.baml
+C:\Users\luka0654\Desktop\Projekt Udlån Mini\Kode\LoanSystemWPFMini\obj\Debug\Views\LoanSystemView.baml
+C:\Users\luka0654\Desktop\Projekt Udlån Mini\Kode\LoanSystemWPFMini\obj\Debug\Views\LoanView.baml
+C:\Users\luka0654\Desktop\Projekt Udlån Mini\Kode\LoanSystemWPFMini\obj\Debug\Views\LogInView.baml
+C:\Users\luka0654\Desktop\Projekt Udlån Mini\Kode\LoanSystemWPFMini\obj\Debug\Views\MenuView.baml
+C:\Users\luka0654\Desktop\Projekt Udlån Mini\Kode\LoanSystemWPFMini\obj\Debug\Views\TypeModelView.baml
+C:\Users\luka0654\Desktop\Projekt Udlån Mini\Kode\LoanSystemWPFMini\obj\Debug\Views\UserView.baml
+C:\Users\luka0654\Desktop\Projekt Udlån Mini\Kode\LoanSystemWPFMini\obj\Debug\Views\LoanEquipmentView.baml
+C:\Users\luka0654\Desktop\Projekt Udlån Mini\Kode\LoanSystemWPFMini\obj\Debug\Views\OverviewStatusView.baml
+C:\Users\luka0654\Desktop\Projekt Udlån Mini\Kode\LoanSystemWPFMini\obj\Debug\LoanSystemWPFMini.g.resources
+C:\Users\luka0654\Desktop\Projekt Udlån Mini\Kode\LoanSystemWPFMini\obj\Debug\LoanSystemWPFMini.Properties.Resources.resources
+C:\Users\luka0654\Desktop\Projekt Udlån Mini\Kode\LoanSystemWPFMini\obj\Debug\LoanSystemWPFMini.csproj.GenerateResource.cache
+C:\Users\luka0654\Desktop\Projekt Udlån Mini\Kode\LoanSystemWPFMini\obj\Debug\LoanSystemWPFMini.csproj.CoreCompileInputs.cache
+C:\Users\luka0654\Desktop\Projekt Udlån Mini\Kode\LoanSystemWPFMini\obj\Debug\LoanSystemWPFMini.csproj.CopyComplete
+C:\Users\luka0654\Desktop\Projekt Udlån Mini\Kode\LoanSystemWPFMini\obj\Debug\LoanSystemWPFMini.exe
+C:\Users\luka0654\Desktop\Projekt Udlån Mini\Kode\LoanSystemWPFMini\obj\Debug\LoanSystemWPFMini.pdb
+C:\Users\luka0654\Desktop\Git Udlån\LoanSystemWPFMini\bin\Debug\LoanSystemWPFMini.exe.config
+C:\Users\luka0654\Desktop\Git Udlån\LoanSystemWPFMini\bin\Debug\LoanSystemWPFMini.exe
+C:\Users\luka0654\Desktop\Git Udlån\LoanSystemWPFMini\bin\Debug\LoanSystemWPFMini.pdb
+C:\Users\luka0654\Desktop\Git Udlån\LoanSystemWPFMini\bin\Debug\System.Net.Http.Formatting.dll
+C:\Users\luka0654\Desktop\Git Udlån\LoanSystemWPFMini\bin\Debug\Newtonsoft.Json.dll
+C:\Users\luka0654\Desktop\Git Udlån\LoanSystemWPFMini\bin\Debug\LoanSystemLibraryMini.pdb
+C:\Users\luka0654\Desktop\Git Udlån\LoanSystemWPFMini\obj\Debug\LoanSystemWPFMini.csproj.AssemblyReference.cache
+C:\Users\luka0654\Desktop\Git Udlån\LoanSystemWPFMini\obj\Debug\Resources\Styles\Styles.baml
+C:\Users\luka0654\Desktop\Git Udlån\LoanSystemWPFMini\obj\Debug\Views\PopupViews\ErrorView.baml
+C:\Users\luka0654\Desktop\Git Udlån\LoanSystemWPFMini\obj\Debug\Views\DeliverEquipmentView.g.cs
+C:\Users\luka0654\Desktop\Git Udlån\LoanSystemWPFMini\obj\Debug\Views\EquipmentView.g.cs
+C:\Users\luka0654\Desktop\Git Udlån\LoanSystemWPFMini\obj\Debug\Views\LoanEquipmentView.g.cs
+C:\Users\luka0654\Desktop\Git Udlån\LoanSystemWPFMini\obj\Debug\Views\LoanRuleView.g.cs
+C:\Users\luka0654\Desktop\Git Udlån\LoanSystemWPFMini\obj\Debug\Views\LoanSystemView.g.cs
+C:\Users\luka0654\Desktop\Git Udlån\LoanSystemWPFMini\obj\Debug\Views\LoanView.g.cs
+C:\Users\luka0654\Desktop\Git Udlån\LoanSystemWPFMini\obj\Debug\Views\LogInView.g.cs
+C:\Users\luka0654\Desktop\Git Udlån\LoanSystemWPFMini\obj\Debug\Views\MenuView.g.cs
+C:\Users\luka0654\Desktop\Git Udlån\LoanSystemWPFMini\obj\Debug\Views\OverviewStatusView.g.cs
+C:\Users\luka0654\Desktop\Git Udlån\LoanSystemWPFMini\obj\Debug\Views\PopupViews\ErrorView.g.cs
+C:\Users\luka0654\Desktop\Git Udlån\LoanSystemWPFMini\obj\Debug\Views\TypeModelView.g.cs
+C:\Users\luka0654\Desktop\Git Udlån\LoanSystemWPFMini\obj\Debug\Views\UserView.g.cs
+C:\Users\luka0654\Desktop\Git Udlån\LoanSystemWPFMini\obj\Debug\App.g.cs
+C:\Users\luka0654\Desktop\Git Udlån\LoanSystemWPFMini\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\luka0654\Desktop\Git Udlån\LoanSystemWPFMini\obj\Debug\LoanSystemWPFMini_MarkupCompile.cache
+C:\Users\luka0654\Desktop\Git Udlån\LoanSystemWPFMini\obj\Debug\LoanSystemWPFMini_MarkupCompile.lref
+C:\Users\luka0654\Desktop\Git Udlån\LoanSystemWPFMini\obj\Debug\App.baml
+C:\Users\luka0654\Desktop\Git Udlån\LoanSystemWPFMini\obj\Debug\Views\DeliverEquipmentView.baml
+C:\Users\luka0654\Desktop\Git Udlån\LoanSystemWPFMini\obj\Debug\Views\EquipmentView.baml
+C:\Users\luka0654\Desktop\Git Udlån\LoanSystemWPFMini\obj\Debug\Views\LoanEquipmentView.baml
+C:\Users\luka0654\Desktop\Git Udlån\LoanSystemWPFMini\obj\Debug\Views\LoanRuleView.baml
+C:\Users\luka0654\Desktop\Git Udlån\LoanSystemWPFMini\obj\Debug\Views\LoanSystemView.baml
+C:\Users\luka0654\Desktop\Git Udlån\LoanSystemWPFMini\obj\Debug\Views\LoanView.baml
+C:\Users\luka0654\Desktop\Git Udlån\LoanSystemWPFMini\obj\Debug\Views\LogInView.baml
+C:\Users\luka0654\Desktop\Git Udlån\LoanSystemWPFMini\obj\Debug\Views\MenuView.baml
+C:\Users\luka0654\Desktop\Git Udlån\LoanSystemWPFMini\obj\Debug\Views\OverviewStatusView.baml
+C:\Users\luka0654\Desktop\Git Udlån\LoanSystemWPFMini\obj\Debug\Views\TypeModelView.baml
+C:\Users\luka0654\Desktop\Git Udlån\LoanSystemWPFMini\obj\Debug\Views\UserView.baml
+C:\Users\luka0654\Desktop\Git Udlån\LoanSystemWPFMini\obj\Debug\LoanSystemWPFMini.g.resources
+C:\Users\luka0654\Desktop\Git Udlån\LoanSystemWPFMini\obj\Debug\LoanSystemWPFMini.Properties.Resources.resources
+C:\Users\luka0654\Desktop\Git Udlån\LoanSystemWPFMini\obj\Debug\LoanSystemWPFMini.csproj.GenerateResource.cache
+C:\Users\luka0654\Desktop\Git Udlån\LoanSystemWPFMini\obj\Debug\LoanSystemWPFMini.csproj.CoreCompileInputs.cache
+C:\Users\luka0654\Desktop\Git Udlån\LoanSystemWPFMini\obj\Debug\LoanSystemWPFMini.csproj.CopyComplete
+C:\Users\luka0654\Desktop\Git Udlån\LoanSystemWPFMini\obj\Debug\LoanSystemWPFMini.exe
+C:\Users\luka0654\Desktop\Git Udlån\LoanSystemWPFMini\obj\Debug\LoanSystemWPFMini.pdb
+C:\Users\luka0654\Desktop\Git Udlån\LoanSystemWPFMini\bin\Debug\LoanSystemLibraryMini.dll
+C:\Users\luka0654\Desktop\Git Udlån\LoanSystemWPFMini\bin\Debug\Interop.CoreScanner.dll
+C:\Users\luka0654\Desktop\Git Udlån\LoanSystemWPFMini\obj\Debug\Interop.CoreScanner.dll
+C:\Users\luka0654\Desktop\Git Udlån\LoanSystemWPFMini\obj\Debug\LoanSystemWPFMini.csproj.ResolveComReference.cache
+C:\Users\luka0654\Desktop\Git Udlån\LoanSystemWPFMini\obj\Debug\LoanSystemWPFMini.csproj.SuggestedBindingRedirects.cache
+C:\Users\luka0654\Desktop\Git Udlån\LoanSystemWPFMini\obj\Debug\Views\SelectDepartmentView.g.cs
+C:\Users\luka0654\Desktop\Git Udlån\LoanSystemWPFMini\obj\Debug\Views\SelectDepartmentView.baml
+C:\Users\zbcmber\Desktop\Udlånssystem\LoanSystemWPFMini\bin\Debug\LoanSystemWPFMini.exe.config
+C:\Users\zbcmber\Desktop\Udlånssystem\LoanSystemWPFMini\bin\Debug\LoanSystemWPFMini.exe
+C:\Users\zbcmber\Desktop\Udlånssystem\LoanSystemWPFMini\bin\Debug\LoanSystemWPFMini.pdb
+C:\Users\zbcmber\Desktop\Udlånssystem\LoanSystemWPFMini\bin\Debug\System.Net.Http.Formatting.dll
+C:\Users\zbcmber\Desktop\Udlånssystem\LoanSystemWPFMini\bin\Debug\Newtonsoft.Json.dll
+C:\Users\zbcmber\Desktop\Udlånssystem\LoanSystemWPFMini\bin\Debug\LoanSystemLibraryMini.dll
+C:\Users\zbcmber\Desktop\Udlånssystem\LoanSystemWPFMini\bin\Debug\LoanSystemLibraryMini.pdb
+C:\Users\zbcmber\Desktop\Udlånssystem\LoanSystemWPFMini\bin\Debug\Interop.CoreScanner.dll
+C:\Users\zbcmber\Desktop\Udlånssystem\LoanSystemWPFMini\obj\Debug\LoanSystemWPFMini.csproj.AssemblyReference.cache
+C:\Users\zbcmber\Desktop\Udlånssystem\LoanSystemWPFMini\obj\Debug\LoanSystemWPFMini.csproj.SuggestedBindingRedirects.cache
+C:\Users\zbcmber\Desktop\Udlånssystem\LoanSystemWPFMini\obj\Debug\Interop.CoreScanner.dll
+C:\Users\zbcmber\Desktop\Udlånssystem\LoanSystemWPFMini\obj\Debug\LoanSystemWPFMini.csproj.ResolveComReference.cache
+C:\Users\zbcmber\Desktop\Udlånssystem\LoanSystemWPFMini\obj\Debug\Resources\Styles\Styles.baml
+C:\Users\zbcmber\Desktop\Udlånssystem\LoanSystemWPFMini\obj\Debug\Views\PopupViews\ErrorView.baml
+C:\Users\zbcmber\Desktop\Udlånssystem\LoanSystemWPFMini\obj\Debug\Views\DeliverEquipmentView.g.cs
+C:\Users\zbcmber\Desktop\Udlånssystem\LoanSystemWPFMini\obj\Debug\Views\EquipmentView.g.cs
+C:\Users\zbcmber\Desktop\Udlånssystem\LoanSystemWPFMini\obj\Debug\Views\LoanEquipmentView.g.cs
+C:\Users\zbcmber\Desktop\Udlånssystem\LoanSystemWPFMini\obj\Debug\Views\LoanRuleView.g.cs
+C:\Users\zbcmber\Desktop\Udlånssystem\LoanSystemWPFMini\obj\Debug\Views\LoanSystemView.g.cs
+C:\Users\zbcmber\Desktop\Udlånssystem\LoanSystemWPFMini\obj\Debug\Views\LoanView.g.cs
+C:\Users\zbcmber\Desktop\Udlånssystem\LoanSystemWPFMini\obj\Debug\Views\LogInView.g.cs
+C:\Users\zbcmber\Desktop\Udlånssystem\LoanSystemWPFMini\obj\Debug\Views\MenuView.g.cs
+C:\Users\zbcmber\Desktop\Udlånssystem\LoanSystemWPFMini\obj\Debug\Views\OverviewStatusView.g.cs
+C:\Users\zbcmber\Desktop\Udlånssystem\LoanSystemWPFMini\obj\Debug\Views\PopupViews\ErrorView.g.cs
+C:\Users\zbcmber\Desktop\Udlånssystem\LoanSystemWPFMini\obj\Debug\Views\SelectDepartmentView.g.cs
+C:\Users\zbcmber\Desktop\Udlånssystem\LoanSystemWPFMini\obj\Debug\Views\TypeModelView.g.cs
+C:\Users\zbcmber\Desktop\Udlånssystem\LoanSystemWPFMini\obj\Debug\Views\UserView.g.cs
+C:\Users\zbcmber\Desktop\Udlånssystem\LoanSystemWPFMini\obj\Debug\App.g.cs
+C:\Users\zbcmber\Desktop\Udlånssystem\LoanSystemWPFMini\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\zbcmber\Desktop\Udlånssystem\LoanSystemWPFMini\obj\Debug\LoanSystemWPFMini_MarkupCompile.cache
+C:\Users\zbcmber\Desktop\Udlånssystem\LoanSystemWPFMini\obj\Debug\LoanSystemWPFMini_MarkupCompile.lref
+C:\Users\zbcmber\Desktop\Udlånssystem\LoanSystemWPFMini\obj\Debug\App.baml
+C:\Users\zbcmber\Desktop\Udlånssystem\LoanSystemWPFMini\obj\Debug\Views\DeliverEquipmentView.baml
+C:\Users\zbcmber\Desktop\Udlånssystem\LoanSystemWPFMini\obj\Debug\Views\EquipmentView.baml
+C:\Users\zbcmber\Desktop\Udlånssystem\LoanSystemWPFMini\obj\Debug\Views\LoanEquipmentView.baml
+C:\Users\zbcmber\Desktop\Udlånssystem\LoanSystemWPFMini\obj\Debug\Views\LoanRuleView.baml
+C:\Users\zbcmber\Desktop\Udlånssystem\LoanSystemWPFMini\obj\Debug\Views\LoanSystemView.baml
+C:\Users\zbcmber\Desktop\Udlånssystem\LoanSystemWPFMini\obj\Debug\Views\LoanView.baml
+C:\Users\zbcmber\Desktop\Udlånssystem\LoanSystemWPFMini\obj\Debug\Views\LogInView.baml
+C:\Users\zbcmber\Desktop\Udlånssystem\LoanSystemWPFMini\obj\Debug\Views\MenuView.baml
+C:\Users\zbcmber\Desktop\Udlånssystem\LoanSystemWPFMini\obj\Debug\Views\OverviewStatusView.baml
+C:\Users\zbcmber\Desktop\Udlånssystem\LoanSystemWPFMini\obj\Debug\Views\SelectDepartmentView.baml
+C:\Users\zbcmber\Desktop\Udlånssystem\LoanSystemWPFMini\obj\Debug\Views\TypeModelView.baml
+C:\Users\zbcmber\Desktop\Udlånssystem\LoanSystemWPFMini\obj\Debug\Views\UserView.baml
+C:\Users\zbcmber\Desktop\Udlånssystem\LoanSystemWPFMini\obj\Debug\LoanSystemWPFMini.g.resources
+C:\Users\zbcmber\Desktop\Udlånssystem\LoanSystemWPFMini\obj\Debug\LoanSystemWPFMini.Properties.Resources.resources
+C:\Users\zbcmber\Desktop\Udlånssystem\LoanSystemWPFMini\obj\Debug\LoanSystemWPFMini.csproj.GenerateResource.cache
+C:\Users\zbcmber\Desktop\Udlånssystem\LoanSystemWPFMini\obj\Debug\LoanSystemWPFMini.csproj.CoreCompileInputs.cache
+C:\Users\zbcmber\Desktop\Udlånssystem\LoanSystemWPFMini\obj\Debug\LoanSystemWPFMini.csproj.CopyComplete
+C:\Users\zbcmber\Desktop\Udlånssystem\LoanSystemWPFMini\obj\Debug\LoanSystemWPFMini.exe
+C:\Users\zbcmber\Desktop\Udlånssystem\LoanSystemWPFMini\obj\Debug\LoanSystemWPFMini.pdb

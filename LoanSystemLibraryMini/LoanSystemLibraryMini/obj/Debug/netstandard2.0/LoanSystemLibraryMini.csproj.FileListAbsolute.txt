@@ -1,0 +1,10 @@
+C:\Users\luka0654\Desktop\Git Udlån\LoanSystemLibraryMini\LoanSystemLibraryMini\bin\Debug\netstandard2.0\LoanSystemLibraryMini.deps.json
+C:\Users\luka0654\Desktop\Git Udlån\LoanSystemLibraryMini\LoanSystemLibraryMini\bin\Debug\netstandard2.0\LoanSystemLibraryMini.dll
+C:\Users\luka0654\Desktop\Git Udlån\LoanSystemLibraryMini\LoanSystemLibraryMini\bin\Debug\netstandard2.0\LoanSystemLibraryMini.pdb
+C:\Users\luka0654\Desktop\Git Udlån\LoanSystemLibraryMini\LoanSystemLibraryMini\obj\Debug\netstandard2.0\LoanSystemLibraryMini.csproj.AssemblyReference.cache
+C:\Users\luka0654\Desktop\Git Udlån\LoanSystemLibraryMini\LoanSystemLibraryMini\obj\Debug\netstandard2.0\LoanSystemLibraryMini.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\luka0654\Desktop\Git Udlån\LoanSystemLibraryMini\LoanSystemLibraryMini\obj\Debug\netstandard2.0\LoanSystemLibraryMini.AssemblyInfoInputs.cache
+C:\Users\luka0654\Desktop\Git Udlån\LoanSystemLibraryMini\LoanSystemLibraryMini\obj\Debug\netstandard2.0\LoanSystemLibraryMini.AssemblyInfo.cs
+C:\Users\luka0654\Desktop\Git Udlån\LoanSystemLibraryMini\LoanSystemLibraryMini\obj\Debug\netstandard2.0\LoanSystemLibraryMini.csproj.CoreCompileInputs.cache
+C:\Users\luka0654\Desktop\Git Udlån\LoanSystemLibraryMini\LoanSystemLibraryMini\obj\Debug\netstandard2.0\LoanSystemLibraryMini.dll
+C:\Users\luka0654\Desktop\Git Udlån\LoanSystemLibraryMini\LoanSystemLibraryMini\obj\Debug\netstandard2.0\LoanSystemLibraryMini.pdb
